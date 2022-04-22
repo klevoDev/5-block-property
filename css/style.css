@@ -1,0 +1,65 @@
+.wrapper {}
+
+
+.container {}
+
+.page {}
+
+.page__color {}
+
+.page__house {}
+
+.page__build {}
+
+.page__dawn {}
+
+
+.color {}
+
+.color__heading {}
+
+.color__text {}
+
+
+
+.house {}
+
+.house__subheading {}
+
+.house__text {}
+
+
+
+.build {}
+
+.build__subheading {}
+
+.build__text {}
+
+.build__wrap-image {}
+
+.build__image {}
+
+
+.dawn {}
+
+.dawn__subheading {}
+
+.dawn__text {}
+
+.dawn__title {}
+
+.dawn__wrap-image {}
+
+.dawn__image {}
+
+
+.contacts {}
+
+.contacts__info {}
+
+.contacts__title {}
+
+.contacts__list {}
+
+.contacts__item {}
