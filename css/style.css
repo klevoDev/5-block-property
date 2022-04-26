@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
@@ -7,31 +6,38 @@
     padding: 30px 0 43px 0;
 }
 
-body {}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 .container {
     max-width: 600px;
-    margin: 0 150px;
+    margin: 0 auto;
 }
 
 .build__container {
     max-width: 800px;
-    margin: 0 50px;
+    margin: 0 auto;
 }
 
 .text {
     font-family: 'Source Sans Pro', sans-serif;
 
-    font-size: 16px;
     line-height: 150%;
 }
 
 .subheading {
-    font-family: 'Open Sans', sans-serif;
-
     font-weight: 800;
     font-size: 30px;
     line-height: 140%;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2C2C2C;
     text-align: center;
 }
 
@@ -54,17 +60,10 @@ body {}
     margin-bottom: 85px;
 }
 
-/*footer*/
-.contacts {}
-
-.contacts__info {}
-
 
 .color {}
 
 .color__heading {
-    font-family: 'Open Sans', sans-serif;
-
     font-weight: 800;
     font-size: 38px;
     line-height: 130%;
@@ -74,7 +73,7 @@ body {}
 }
 
 .color__text {
-    margin-left: 10px;
+    margin-left: 34px;
 }
 
 
@@ -126,22 +125,13 @@ body {}
     background: #FFFFFF;
     border-radius: 4px;
 
-    filter: drop-shadow(4px 4px 6.5px rgba(255, 202, 52, 0.55));
-
+    box-shadow: 4px 4px 15px rgba(255, 202, 52, 0.55);
     max-width: 346px;
     margin: 0 auto;
-    padding: 44px 42px 40px 42px;
+    padding: 44px 42px 40px;
 }
 
 .dawn__title {
-    font-family: 'Open Sans', sans-serif;
-
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 150%;
-    text-align: center;
-    color: #2C2C2C;
-
     margin-bottom: 25px;
 }
 
@@ -163,34 +153,30 @@ body {}
 }
 
 
-.info {}
+.footer {}
 
-.info__title {
-    font-family: 'Open Sans', sans-serif;
-
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 150%;
-    color: #2C2C2C;
-    text-align: center;
-
+.footer__title {
     margin-bottom: 29px;
 }
 
-.info__list {
+.footer__list {
     font-family: 'Lora', serif;
     font-size: 17px;
     line-height: 110%;
-    text-decoration-line: underline;
-    color: #5A9CFF;
 
-    margin-left: 250px;
+    max-width: 100px;
+    margin: 0 auto;
 }
 
-.contacts__item:last-child {
+.footer__item:last-child {
     margin-bottom: 0;
 }
 
-.info__item {
+.footer__item {
     margin-bottom: 21px;
+}
+
+.footer__link {
+    text-decoration-line: underline;
+    color: #5A9CFF;
 }
